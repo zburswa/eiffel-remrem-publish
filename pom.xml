@@ -9,7 +9,7 @@
         <version>2.0.1</version>
     </parent>
     <properties>
-        <eiffel-remrem-publish.version>2.0.2</eiffel-remrem-publish.version>
+        <eiffel-remrem-publish.version>100.0.1</eiffel-remrem-publish.version>
         <eiffel-remrem-shared.version>2.0.1</eiffel-remrem-shared.version>
         <eiffel-remrem-semantics.version>2.0.5</eiffel-remrem-semantics.version>
     </properties>
@@ -36,16 +36,6 @@
     <build>
         <plugins>
             <plugin>
-                
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-        <dependencies>
-        </dependencies>
-    </plugin>
-    <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.1</version>
